@@ -9,9 +9,7 @@
 	"libc":          "wasi-libc",
 	"scheduler":     "asyncify",
 	"default-stack-size": 16384,
-	"cflags": [
-		"-sub"
-	],
+	"cflags": [],
 	"ldflags": [
 		"--allow-undefined",
 		"--stack-first",
